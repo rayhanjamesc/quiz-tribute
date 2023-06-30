@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>For Lee</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <header>
+            <h1>Tribute for Lee</h1>
+            <h2>From Coyote Skull</h2>
+            <img src="Lee_PFP.png" alt="Profile picture of Lee">
+            <section id="subheader">
+                <h3>Who is Lee Chadowitz?</h3>
+                <h3>An exceptional product lead, a visionaire and (solve the questions below for the final answer)</h3>
+            </section>
+        </header>
+        <main>
+            <section class="question-container" class="small-question">
+                <label for="question-one">Who is the name of the person we saved who had a busted leg in Mission 1?</label>
+                <input type="text" id="question-one" placeholder="Type answer here">
+                <p id="answer-one"></p>
+                <button class="answer-button" onclick="getanswerOne()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-two">Fill in the blanks, this gear is called Project _____ Boot</label>
+                <input type="text" id="question-two" placeholder="Type answer here">
+                <p id="answer-two"></p>
+                <button class="answer-button" onclick="getanswerTwo()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-three">What project grunt boot is one step more powerful than an uncommon one?(one word)</label>
+                <input type="text" id="question-three" placeholder="Type answer here">
+                <p id="answer-three"></p>
+                <button class="answer-button" onclick="getanswerThree()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-four">Who did we meet when we first entered New Alice Springs?</label>
+                <input type="text" id="question-four" placeholder="Type answer here">
+                <p id="answer-four"></p>
+                <button class="answer-button" onclick="getanswerFour()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-five">What is the first name of Percy Ingram's father?</label>
+                <input type="text" id="question-five" placeholder="Type answer here">
+                <p id="answer-five"></p>
+                <button class="answer-button" onclick="getanswerFive()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-six">Fill in the blanks, before the energy sistem. We used completion _______</label>
+                <input type="text" id="question-six" placeholder="Type answer here">
+                <p id="answer-six"></p>
+                <button class="answer-button" onclick="getanswerSix()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-seven">Fill in the blanks, we use ______ Disks to craft Project Grunt Boots</label>
+                <input type="text" id="question-seven" placeholder="Type answer here">
+                <p id="answer-seven"></p>
+                <button class="answer-button" onclick="getanswerSeven()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-eight">This character wears a cap and sunglasses, we met him in Mission 1</label>
+                <input type="text" id="question-eight" placeholder="Type answer here">
+                <p id="answer-eight"></p>
+                <button class="answer-button" onclick="getanswerEight()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-nine">This doctor is a cultural archeologist we met in Mission 9, what's their first name?</label>
+                <input type="text" id="question-nine" placeholder="Type answer here">
+                <p id="answer-nine"></p>
+                <button class="answer-button" onclick="getanswerNine()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-ten">What is one stop less rare than a Legendary Floppy? (one word)</label>
+                <input type="text" id="question-ten" placeholder="Type answer here">
+                <p id="answer-ten"></p>
+                <button class="answer-button" onclick="getanswerTen()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-eleven">What place did we went to in Mission 2, right after Kettlemine was destroyed?</label>
+                <input type="text" id="question-eleven" placeholder="Type answer here">
+                <p id="answer-eleven"></p>
+                <button class="answer-button" onclick="getanswerEleven()">Answer</button>
+            </section>
+            <section class="question-container" class="small-question">
+                <label for="question-twelve">What's the name of Mission 7?</label>
+                <input type="text" id="question-twelve" placeholder="Type answer here">
+                <p id="answer-twelve"></p>
+                <button class="answer-button" onclick="getanswerTwelve()">Answer</button>
+            </section>
+            <section id="final" class="question-container">
+                <label for="question-final">Put together all the first letters from the previous questions to get the final answer! (Make
+                    sure to consider the spaces) Who is Lee Chadzzy?
+                </label>
+                <input type="text" id="question-final" placeholder="Type answer here">
+                <p id="answer-final"></p>
+                <button id="answer-button-final" onclick="getanswerFinal()">Answer</button>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
